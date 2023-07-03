@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-    background-color: green;
+    background-color: #017371;
     color: whitesmoke;
     align-items: center;
     justify-content: center;
@@ -8,8 +8,18 @@
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    font-size: 48px;
 }
 
+.msg {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 60px;
+    font-weight: 500;
+    border-color: black;
+    flex-wrap: wrap;
+}
 @font-face {
     font-family: open-sans;
     src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf) format(truetype);
